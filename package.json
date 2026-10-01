@@ -1,0 +1,18 @@
+{
+  "name": "linkod-global",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Linkod Global service marketplace backend foundation",
+  "engines": {
+    "node": ">=24.19.0 <25"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "test": "node --test",
+    "seed": "node --env-file-if-exists=.env src/seed.js",
+    "demo": "node src/demo.js",
+    "demo:lan": "node src/demo.js --lan"
+  }
+}

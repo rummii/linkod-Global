@@ -1,7 +1,19 @@
+# Node & Backend
 node_modules/
 .env
-data/
+/data/
 coverage/
 *.db
 *.db-shm
 *.db-wal
+
+# Android & Gradle
+.gradle/
+build/
+*/build/
+*.apk
+*.aab
+local.properties
+.idea/
+*.iml
+
